@@ -6,6 +6,7 @@ export const userSchema = z.object({
   id: z.string().uuid(),
   email: emailSchema,
   name: z.string(),
+  surname: z.string(),
   age: intSchema.nonnegative(),
 });
 
