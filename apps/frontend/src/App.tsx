@@ -1,3 +1,4 @@
+import { stringify2, userSchema } from "@fullstack-app/utils";
 import { useState } from "react";
 import "./App.css";
 import reactLogo from "./assets/react.svg";
@@ -30,6 +31,7 @@ function App() {
         Click on the Vite and React logos to learn more
       </p>
       <pre>{JSON.stringify(import.meta.env, null, 2)}</pre>
+      <pre>{stringify2(userSchema.safeParse({ name: "Misha", age: 5 }))}</pre>
     </>
   );
 }

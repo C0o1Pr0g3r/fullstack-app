@@ -1,0 +1,20 @@
+{
+  "name": "@fullstack-app/utils",
+  "version": "0.0.1",
+  "description": "",
+  "private": true,
+  "types": "./dist/index.d.ts",
+  "exports": {
+    ".": "./dist/index.js"
+  },
+  "scripts": {
+    "build": "tsc",
+    "dev": "tsc --watch"
+  },
+  "dependencies": {
+    "zod": "^3.23.8"
+  },
+  "devDependencies": {
+    "typescript": "^5.7.2"
+  }
+}

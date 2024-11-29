@@ -1,4 +1,5 @@
 {
+  "name": "fullstack-app",
   "devDependencies": {
     "turbo": "^2.3.3"
   },
